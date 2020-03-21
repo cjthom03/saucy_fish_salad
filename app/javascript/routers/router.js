@@ -1,9 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Router, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from '../screens/home';
 
 class SaucyFishRouter extends React.Component {
   render() {
-    return 'FISH!'
+    return (
+      <BrowserRouter>
+        <Route path="/">
+          <Home />
+        </Route>
+      </BrowserRouter>
+    )
   }
 }
 
