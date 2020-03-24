@@ -17,5 +17,8 @@ module SaucyFishSalad
     # the framework and any gems in your application.
 
     config.webpacker.check_yarn_integrity = false
+
+    # Autoload classes in app/lib
+    config.autoload_paths << Rails.root.join('app', 'lib')
   end
 end
