@@ -59,7 +59,6 @@ class Recipe
   attr_reader :title, :ingredients, :instructions
 
   def self.generate(data)
-    data = data['meals'].first
     new(
       title: data['strMeal'],
       ingredients: Recipe::Ingredients.generate(data),
