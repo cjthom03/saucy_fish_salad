@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './BackgroundImage.module.css'
 
 const BackgroundImage = props => {
 
@@ -7,7 +8,7 @@ const BackgroundImage = props => {
   };
 
   return(
-    <div style={inlineStyles}>
+    <div className={styles.fullscreen} style={inlineStyles}>
       {props.children}
     </div>
   )
