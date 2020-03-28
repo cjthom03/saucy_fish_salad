@@ -6,3 +6,8 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
+.recipes.frame{
+  height: 100%;
+  padding: 100px 100px 100px 0;
+}

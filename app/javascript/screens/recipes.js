@@ -16,7 +16,9 @@ class Recipes extends React.Component {
 
     return(
       <BackgroundImage url={backgroundImage}>
-        <div>TESTING</div>
+        <div className={'recipes frame'}>
+          <div>TESTING</div>
+        </div>
       </BackgroundImage>
     )
   }
