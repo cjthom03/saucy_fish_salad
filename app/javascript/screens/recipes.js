@@ -1,5 +1,6 @@
 import React from  'react'
 import BackgroundImage from '../components/BackgroundImage';
+import '../styles/Recipes'
 
 class Recipes extends React.Component {
   constructor(props) {
